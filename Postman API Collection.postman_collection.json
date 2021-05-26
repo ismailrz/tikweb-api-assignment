@@ -1,0 +1,406 @@
+{
+	"variables": [],
+	"info": {
+		"name": "Postman API Collection",
+		"_postman_id": "42b97266-09c6-73f7-9788-26c1615eb7d6",
+		"description": "Postman API Collection for api test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "user registration api",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register?name=Md. Ismail&email=ismailcse14@gmail.com&password=abc1234&confirm_password=abc1234",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Md. Ismail",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "email",
+							"value": "ismailcse14@gmail.com",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "password",
+							"value": "abc1234",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "confirm_password",
+							"value": "abc1234",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "user login",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/login?email=ismailcse14@gmail.com&password=abc1234",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"login"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "ismailcse14@gmail.com",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "password",
+							"value": "abc1234",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "add role api",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/add-role?title=Admin&descr=An User who control the  hole project",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"add-role"
+					],
+					"query": [
+						{
+							"key": "title",
+							"value": "Admin",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "descr",
+							"value": "An User who control the  hole project",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "assign role to user",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/assign-role-to-user?role_id=1&user_id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"assign-role-to-user"
+					],
+					"query": [
+						{
+							"key": "role_id",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "delete role from user",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/delete-role-from-user?user_id=1",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"delete-role-from-user"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "user profile information",
+			"request": {
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/user-profile-information?user_id=1&gender=male&address=Rajshahi&phone=01743557172",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"user-profile-information"
+					],
+					"query": [
+						{
+							"key": "user_id",
+							"value": "1",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "gender",
+							"value": "male",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "address",
+							"value": "Rajshahi",
+							"equals": true,
+							"description": ""
+						},
+						{
+							"key": "phone",
+							"value": "01743557172",
+							"equals": true,
+							"description": ""
+						}
+					],
+					"variable": []
+				},
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "user list ",
+			"request": {
+				"url": "http://127.0.0.1:8000/api/get-users",
+				"method": "GET",
+				"header": [
+					{
+						"key": "name",
+						"value": "md. ismail",
+						"description": ""
+					},
+					{
+						"key": "email",
+						"value": "ismail@gma.com",
+						"description": ""
+					},
+					{
+						"key": "password",
+						"value": "111111",
+						"description": ""
+					},
+					{
+						"key": "confirm_password",
+						"value": "111111",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
